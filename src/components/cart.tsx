@@ -32,12 +32,13 @@ export default function Cart(props: ICartProps) {
 
     return (
         <div className="cart">
-            <div className="header">Shopping Cart</div>
+            <div className="header">RAHUL Shopping Cart</div>
             <table className="basket">
                 <thead>
                     <tr>
                         <th className="col">Item</th>
                         <th className="col">Unit Cost</th>
+                        <th className="col">Total Cost</th>
                         <th className="col">Total Cost</th>
                         <th className="col last" colSpan={2}>Discount</th>
                     </tr>
