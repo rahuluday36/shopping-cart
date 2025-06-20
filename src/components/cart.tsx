@@ -20,12 +20,13 @@ export default function Cart() {
 
   return (
     <div className="cart" data-testid="cart">
-      <div className="header">Shopping Cart</div>
+      <div className="header">Rahul Shopping Cart</div>
       <table className="basket">
         <thead>
           <tr>
             <th className="col">Item</th>
             <th className="col">Unit Cost</th>
+            <th className="col">Total Cost</th>
             <th className="col">Total Cost</th>
           </tr>
         </thead>
