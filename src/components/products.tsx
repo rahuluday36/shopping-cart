@@ -3,7 +3,7 @@ import "../styles/products.css";
 import { IProduct } from "../external/product";
 import { formatCurrency } from "../util";
 import { useAddItem } from "../hooks";
-import { getProducts } from "../external/product";
+//import { getProducts } from "../external/product";
 
 export default function Products() {
   const { addItem } = useAddItem();
